@@ -103,14 +103,15 @@ h2 {
     width: 100%;
 }
 
-#Pricing{
+#Pricing {
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
     margin-top: 60px;
 }
-.product{
+
+.product {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,14 +122,15 @@ h2 {
     border-radius: 3px;
 }
 
-.level{
+.level {
     background-color: #eb8810;
     color: black;
     width: 100%;
     padding: 15px 0;
     font-weight: 700;
 }
-.btn{
+
+.btn {
     background-color: darkorange;
     margin: 15px 0;
     font-weight: 400;
@@ -136,4 +138,17 @@ h2 {
     border-radius: 2px;
     width: 30%;
     height: 30px;
+}
+
+@media (max-width: 800px) {
+    #Pricing {
+        flex-direction: column;
+    }
+
+    .product {
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
 }
