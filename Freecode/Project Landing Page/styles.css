@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.the-product {
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-family: 'Courier New';
+}
+
+body {
+    background-color: #f5ebe0;
+    font-family: 'Lato', sans-serif;
+}
+
+#header-img {
+    width: 60px;
+    object-fit: contain;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+section{
+    margin: 130px 20px;
+    text-align: center;
+}
+
+section::before{
+    display: block;
+    content: "";
+    margin-top: -100px;
+    height: 100px;
+    visibility: hidden;
+    pointer-events: none;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(78, 69, 68);
+}
+#submit{
+    background-color: coral;
+    color: #ffffff;
+    cursor: pointer;
+}
+h2{
+    font-family: 'Courier New';
+    margin-bottom: 10px;
+}
+.icon{
+    color: coral;
+}
