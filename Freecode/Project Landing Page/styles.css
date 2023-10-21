@@ -48,12 +48,13 @@ body {
     display: flex;
     align-items: center;
 }
-section{
+
+section {
     margin: 130px 20px;
     text-align: center;
 }
 
-section::before{
+section::before {
     display: block;
     content: "";
     margin-top: -100px;
@@ -61,20 +62,78 @@ section::before{
     visibility: hidden;
     pointer-events: none;
 }
-input{
+
+input {
     padding: 10px;
     border-radius: 5px;
     border: 2px solid rgb(78, 69, 68);
 }
-#submit{
+
+#submit {
     background-color: coral;
     color: #ffffff;
     cursor: pointer;
 }
-h2{
+
+h2 {
     font-family: 'Courier New';
     margin-bottom: 10px;
 }
-.icon{
-    color: coral;
+
+.icon {
+    color: rgb(249, 170, 51);
+    margin-right: 30px;
+}
+
+#Features {
+    text-align: left;
+    max-width: 600px;
+    margin: auto;
+}
+
+.Features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    font-family: 'Times New Roman';
+}
+
+#video {
+    width: 100%;
+}
+
+#Pricing{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.level{
+    background-color: #eb8810;
+    color: black;
+    width: 100%;
+    padding: 15px 0;
+    font-weight: 700;
+}
+.btn{
+    background-color: darkorange;
+    margin: 15px 0;
+    font-weight: 400;
+    border: 0;
+    border-radius: 2px;
+    width: 30%;
+    height: 30px;
 }
